@@ -13,5 +13,5 @@ WITH SERDEPROPERTIES (
   'mapping' = 'TRUE'
 )
 STORED AS INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
-LOCATION 's3://dapostoli-stedi-lakehouse/accelerometer/'
+LOCATION 's3://dapostoli-stedi-lakehouse/accelerometer/landing/'
 TBLPROPERTIES ('classification' = 'json');
