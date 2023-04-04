@@ -56,7 +56,9 @@ DropFields_node1680619785893 = DropFields.apply(
 
 # Script generated for node Drop Duplicates
 DropDuplicates_node1680621987000 = DynamicFrame.fromDF(
-    DropFields_node1680619785893.toDF().dropDuplicates(),
+    DropFields_node1680619785893.toDF().dropDuplicates(
+        ["serialNumber", "birthDay", "customerName", "email", "phone"]
+    ),
     glueContext,
     "DropDuplicates_node1680621987000",
 )

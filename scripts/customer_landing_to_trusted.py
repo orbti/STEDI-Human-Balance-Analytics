@@ -33,15 +33,17 @@ SharewithResearch_node2 = Filter.apply(
 )
 
 # Script generated for node Customer Trusted
-CustomerTrusted_node3 = glueContext.write_dynamic_frame.from_options(
-    frame=SharewithResearch_node2,
+CustomerTrusted_node3 = glueContext.getSink(
+    path="s3://dapostoli-stedi-lakehouse/customers/trusted/",
     connection_type="s3",
-    format="json",
-    connection_options={
-        "path": "s3://dapostoli-stedi-lakehouse/customers/trusted/",
-        "partitionKeys": [],
-    },
+    updateBehavior="UPDATE_IN_DATABASE",
+    partitionKeys=[],
+    enableUpdateCatalog=True,
     transformation_ctx="CustomerTrusted_node3",
 )
-
+CustomerTrusted_node3.setCatalogInfo(
+    catalogDatabase="stedi", catalogTableName="customer_trusted"
+)
+CustomerTrusted_node3.setFormat("json")
+CustomerTrusted_node3.writeFrame(SharewithResearch_node2)
 job.commit()

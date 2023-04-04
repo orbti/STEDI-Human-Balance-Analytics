@@ -52,6 +52,6 @@ As a data engineer on the STEDI Step Trainer team, you'll need to extract the da
 
 ### Machine Learning Zone
 
-ADD SPARK SCRIPTS HERE FOR STEP TRIANER TRUSTED
+[Step Trainer Trusted Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/scripts/step_trainer_to_trusted.py)
 
 ADD SPARK SCRIPTS HERE FOR MACHINE LEARNING
