@@ -28,17 +28,29 @@ As a data engineer on the STEDI Step Trainer team, you'll need to extract the da
 
 ### Landing Zone
 
-Glue Tables:
+[Customer Landing SQL](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_landing.sql)
 
-Athena:
+[Accelerometer Landing SQL](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/acceleromeiter_landing.sql)
+
+![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_landing.PNG "Customer Landing Table")
+
+![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/accelerometer_landing.PNG "Accelerometer Landing Table")
 
 ### Trusted Zone
 
-Glue Tables:
+ADD SPARK SCRIPTS HERE FOR CUSTOMER TRUSTED AND ACCELEROMETER TRUSTED.
 
-Athena:
+![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_trusted.PNG "Customer Trusted Table")
+
+![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_trusted.PNG "Accelerometer Trusted Table")
 
 ### Curated Zone
 
-Glue job Scripts:
+ADD SPARK SCRIPTS HERE FOR CUSTOMERS CURATED
+
+### Machine Learning Zone
+
+ADD SPARK SCRIPTS HERE FOR STEP TRIANER TRUSTED
+
+ADD SPARK SCRIPTS HERE FOR MACHINE LEARNING
 
