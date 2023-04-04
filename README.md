@@ -28,27 +28,27 @@ As a data engineer on the STEDI Step Trainer team, you'll need to extract the da
 
 ### Landing Zone
 
-[Customer Landing SQL](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_landing.sql)
+[Customer Landing SQL](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/scripts/customer_landing.sql)
 
-[Accelerometer Landing SQL](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/acceleromeiter_landing.sql)
+[Accelerometer Landing SQL](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/scripts/acceleromeiter_landing.sql)
 
-![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_landing.PNG "Customer Landing Table")
+![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/images/customer_landing.PNG "Customer Landing Table")
 
-![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/accelerometer_landing.PNG "Accelerometer Landing Table")
+![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/images/accelerometer_landing.PNG "Accelerometer Landing Table")
 
 ### Trusted Zone
 
-[Customer Landing to Trusted Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_landing_to_trusted.py)
+[Customer Landing to Trusted Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/scripts/customer_landing_to_trusted.py)
 
-[Accelerometer Landing to Trusted Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/accelerometer_landing_to_trusted.py)
+[Accelerometer Landing to Trusted Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/scripts/accelerometer_landing_to_trusted.py)
 
-![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_trusted.PNG "Customer Trusted Table")
+![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/images/customer_trusted.PNG "Customer Trusted Table")
 
-![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_trusted.PNG "Accelerometer Trusted Table")
+![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/images/customer_trusted.PNG "Accelerometer Trusted Table")
 
 ### Curated Zone
 
-[Customer Trusted to Curated Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_trusted_to_curated.py)
+[Customer Trusted to Curated Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/scripts/customer_trusted_to_curated.py)
 
 ### Machine Learning Zone
 
