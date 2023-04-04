@@ -38,7 +38,9 @@ As a data engineer on the STEDI Step Trainer team, you'll need to extract the da
 
 ### Trusted Zone
 
-ADD SPARK SCRIPTS HERE FOR CUSTOMER TRUSTED AND ACCELEROMETER TRUSTED.
+[Customer Landing to Trusted Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_landing_to_trusted.py)
+
+[Accelerometer Landing to Trusted Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/accelerometer_landing_to_trusted.py)
 
 ![alt text](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_trusted.PNG "Customer Trusted Table")
 
@@ -46,7 +48,7 @@ ADD SPARK SCRIPTS HERE FOR CUSTOMER TRUSTED AND ACCELEROMETER TRUSTED.
 
 ### Curated Zone
 
-ADD SPARK SCRIPTS HERE FOR CUSTOMERS CURATED
+[Customer Trusted to Curated Script](https://github.com/orbti/STEDI-Human-Balance-Analytics/blob/main/customer_trusted_to_curated.py)
 
 ### Machine Learning Zone
 
