@@ -55,4 +55,3 @@ As a data engineer on the STEDI Step Trainer team, you'll need to extract the da
 ADD SPARK SCRIPTS HERE FOR STEP TRIANER TRUSTED
 
 ADD SPARK SCRIPTS HERE FOR MACHINE LEARNING
-
